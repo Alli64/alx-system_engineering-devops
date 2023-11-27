@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Shares your SSH client configuration in your answer file.
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
+    SendEnv LANG LC_*
+    MashKnwonHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
