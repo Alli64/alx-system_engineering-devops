@@ -5,7 +5,7 @@
 # {$2} - path to ssh key
 # {$3} - Username
 # {$4} - Path to file file to be sent
-# Ex - ./0* 0-transfer_file 35.175.126.203 web-02 ~/.ssh...
+# Ex - ./0* 0-transfer_file 	34.203.75.147 web-02 ~/.ssh...
 
 if [ $# != 4 ]; then
 	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
